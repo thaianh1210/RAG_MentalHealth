@@ -1,0 +1,58 @@
+[
+    {
+        "username": "Người dùng",
+        "Time": "2025-01-01 15:34:23",
+        "Score": 8,
+        "Content": "Cảm thấy cực kì buồn và trải qua trạng thái trầm cảm nghiêm trọng",
+        "Total guess": 1
+    },
+    {
+        "username": "Người dùng",
+        "Time": "2025-01-01 15:37:51",
+        "Score": 8,
+        "Content": "Người dùng gặp khó khăn trong việc nhớ hàm khi lập trình và cảm thấy sợ hãi khi phải làm bài tập. Đề xuất các phương pháp như sử dụng bộ nhớ ngoài, thực hành thường xuyên, sử dụng comment trong code và sử dụng công cụ hỗ trợ để cải thiện tình hình.",
+        "Total guess": 1
+    },
+    {
+        "username": "Người dùng",
+        "Time": "2025-01-01 15:39:29",
+        "Score": 4,
+        "Content": "Người dùng đang trải qua tình trạng trầm cảm nặng và cần tìm sự hỗ trợ chuyên nghiệp. Đề xuất tìm kiếm sự giúp đỡ từ chuyên gia tâm lý hoặc bác sĩ chuyên khoa, thực hiện các hoạt động thư giãn như thiền, yoga, hoặc tập thể dục để cải thiện tâm trạng.",
+        "Total guess": 1
+    },
+    {
+        "username": "Người dùng",
+        "Time": "2025-01-01 15:41:13",
+        "Score": 10,
+        "Content": "Người dùng đánh giá 5 sao cho cuộc trò chuyện và cảm thấy hài lòng với sự hỗ trợ. Đề xuất tiếp tục chăm sóc bản thân và tìm kiếm sự giúp đỡ khi cần.",
+        "Total guess": 1
+    },
+    {
+        "username": "Người dùng",
+        "timestamp": "2025-01-01 15:46:48",
+        "severity_score": 2,
+        "diagnosis": "Người dùng đang trải qua tình trạng trầm cảm tự kỉ và cần tìm sự hỗ trợ chuyên nghiệp. Đề xuất tìm kiếm sự giúp đỡ từ chuyên gia tâm lý hoặc bác sĩ chuyên khoa để được đánh giá và điều trị một cách chuyên nghiệp.",
+        "symptoms_count": 1
+    },
+    {
+        "username": "Người dùng",
+        "timestamp": "2025-01-01 15:47:21",
+        "severity_score": 3,
+        "diagnosis": "Người dùng đang trải qua tình trạng buồn bực và lo lắng về việc nghiện thủ dâm. Đề xuất tìm sự hỗ trợ từ chuyên gia tâm lý hoặc chuyên gia về tâm lý tình dục để được tư vấn và điều trị một cách chuyên nghiệp.",
+        "symptoms_count": 1
+    },
+    {
+        "username": "Người dùng",
+        "timestamp": "2025-01-01 15:54:53",
+        "severity_score": 4,
+        "diagnosis": "Người dùng đang trải qua áp lực và căng thẳng do sự kỳ vọng từ người khác. Đề xuất thực hành mindfulness, thiết lập giới hạn, tìm sở thích và hoạt động thư giãn để giảm áp lực và cải thiện tâm trạng.",
+        "symptoms_count": 1
+    },
+    {
+        "username": "Người dùng",
+        "timestamp": "2025-01-01 15:56:19",
+        "severity_score": 2,
+        "diagnosis": "Người dùng đang trải qua cảm giác phát điên và điên loạn. Đề xuất tìm sự giúp đỡ từ chuyên gia tâm lý hoặc tổ chức cứu hộ tâm thần ngay lập tức.",
+        "symptoms_count": 1
+    }
+]

@@ -1,0 +1,3 @@
+Correctness scores: 4.20704845814978
+Faithfulness scores: 0.7533039647577092
+Relevancy scores: 0.7709251101321586

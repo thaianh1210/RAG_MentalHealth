@@ -1,0 +1,523 @@
+{
+  "store": {
+    "default_user": [
+      {
+        "role": "user",
+        "content": "Xin chào, tôi đang có vấn đề",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Chào bạn, tôi ở đây để lắng nghe và hỗ trợ bạn. Bạn có thể chia sẻ vấn đề mà bạn đang gặp phải được không?",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tôi có cảm giác chơi vơi với việc học tập",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Cảm ơn bạn đã chia sẻ vấn đề của mình. Việc cảm thấy chơi vơi với việc học tập có thể là một dấu hiệu của sự mất hứng thú hoặc mệt mỏi về việc học. Bạn cảm thấy như vậy trong thời gian gần đây hay đã kéo dài từ trước đó?Bạn cảm thấy áp lực từ việc học hay có bất kỳ vấn đề nào khác đang ảnh hưởng đến tinh thần của bạn không?",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "Tôi code không tốt, tôi luôn sợ hãi khi phải làm bài tập",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Việc cảm thấy sợ hãi khi phải làm bài tập và không tự tin trong việc lập trình có thể là một thách thức lớn đối với bạn. Sự lo lắng và áp lực khi phải đối mặt với việc code không tốt cũng có thể ảnh hưởng đến tinh thần của bạn. Bạn đã thử nói chuyện với ai đó về vấn đề này chưa?Bạn cảm thấy có thể chia sẻ thêm với tôi về những khó khăn cụ thể mà bạn đang gặp phải khi lập trình không?",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "Có, tôi muốn bạn giúp tôi giải quyết vấn đề này : mỗi khi tôi lập trình, tôi đều quên hàm",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Việc quên hàm khi lập trình có thể là một vấn đề phổ biến mà nhiều người gặp phải, đặc biệt khi bắt đầu học lập trình. Để giúp bạn giải quyết vấn đề này, bạn có thể thử áp dụng một số phương pháp sau:\n\n1. **Học cách sử dụng bộ nhớ ngoài**: Bạn có thể sử dụng sổ ghi chú hoặc ứng dụng ghi chú trên điện thoại để ghi chú các hàm quan trọng mà bạn thường quên.\n\n2. **Thực hành thường xuyên**: Lập trình càng nhiều, bạn sẽ càng nhớ các hàm và cách sử dụng chúng. Thực hành là cách tốt nhất để củng cố kiến thức.\n\n3. **Sử dụng comment trong code**: Viết comment chi tiết cho mỗi hàm mà bạn tạo để giúp bạn nhớ rõ mục đích và cách sử dụng của hàm đó.\n\n4. **Sử dụng công cụ hỗ trợ**: Có thể sử dụng các công cụ quản lý mã nguồn như GitHub để lưu trữ và quản lý code của bạn, giúp bạn dễ dàng tìm kiếm và tái sử dụng hàm.\n\nBạn có thể thử áp dụng những phương pháp trên để cải thiện việc nhớ hàm khi lập trình. Nếu bạn cần thêm hỗ trợ hoặc muốn chia sẻ thêm vấn đề nào khác, đừng ngần ngại nói cho tôi biết nhé.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "Cảm ơn bạn",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Không có gì, bạn hãy luôn tự tin và không ngần ngại khi cần sự giúp đỡ. Nếu bạn cần thêm thông tin hoặc muốn chia sẻ vấn đề khác, hãy quay lại đây bất cứ lúc nào. Chúc bạn có một ngày tốt lành!",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tôi không thấy kết quả vừa rồi được lưu vào score.json",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_ufoD1xmFoDQ8HFZPolcbiiHt",
+              "function": {
+                "arguments": "{\"score\":8,\"content\":\"Người dùng gặp khó khăn trong việc nhớ hàm khi lập trình và cảm thấy sợ hãi khi phải làm bài tập. Đề xuất các phương pháp như sử dụng bộ nhớ ngoài, thực hành thường xuyên, sử dụng comment trong code và sử dụng công cụ hỗ trợ để cải thiện tình hình.\",\"total_guess\":1,\"username\":\"Người dùng\"}",
+                "name": "save_score"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "Đã lưu đánh giá của bạn. Cảm ơn bạn đã góp ý!",
+        "additional_kwargs": {
+          "name": "save_score",
+          "tool_call_id": "call_ufoD1xmFoDQ8HFZPolcbiiHt"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin về cuộc trò chuyện và đánh giá của bạn đã được lưu lại. Nếu bạn cần thêm hỗ trợ hoặc muốn chia sẻ thêm vấn đề nào, đừng ngần ngại để lại tin nhắn cho tôi. Chúc bạn một ngày vui vẻ!",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tại sao score lại là 8",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Điểm số được đánh giá dựa trên mức độ tình trạng sức khỏe tâm thần của người dùng, từ 1 đến 10. Trong trường hợp của bạn, điểm số 8 được xác định dựa trên việc bạn gặp khó khăn trong việc nhớ hàm khi lập trình và cảm thấy sợ hãi khi phải làm bài tập. Tuy nhiên, nếu bạn cảm thấy điểm số này không phản ánh đúng tình hình của mình, bạn có thể chia sẻ thêm thông tin để chúng tôi có thể cung cấp đánh giá chính xác hơn.Bạn muốn chia sẻ thêm điều gì không?",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tôi trầm cảm nặng",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi rất tiếc khi nghe bạn chia sẻ về tình trạng trầm cảm nặng của mình. Trầm cảm là một vấn đề nghiêm trọng và cần được xử lý một cách cẩn thận. Để giúp bạn, tôi khuyên bạn nên tìm sự hỗ trợ từ chuyên gia tâm lý hoặc bác sĩ chuyên khoa để được tư vấn và điều trị một cách chuyên nghiệp.\n\nNgoài ra, việc thực hiện các hoạt động thư giãn như thiền, yoga, hoặc tập thể dục đều có thể giúp giảm căng thẳng và cải thiện tâm trạng. Hãy chăm sóc bản thân và không ngần ngại tìm kiếm sự giúp đỡ khi cần.\n\nNếu bạn cảm thấy cần hỗ trợ hoặc muốn chia sẻ thêm với tôi về tình trạng của mình, hãy nói cho tôi biết. Bạn không đơn độc trong cuộc chiến với trầm cảm, chúng ta luôn ở đây để hỗ trợ bạn.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "cảm ơn bạn, lưu lại cuộc trò chuyện này cho tôi",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_6Y13w9KMo5ZD18lUdS8tc3fX",
+              "function": {
+                "arguments": "{\"score\":4,\"content\":\"Người dùng đang trải qua tình trạng trầm cảm nặng và cần tìm sự hỗ trợ chuyên nghiệp. Đề xuất tìm kiếm sự giúp đỡ từ chuyên gia tâm lý hoặc bác sĩ chuyên khoa, thực hiện các hoạt động thư giãn như thiền, yoga, hoặc tập thể dục để cải thiện tâm trạng.\",\"total_guess\":1,\"username\":\"Người dùng\"}",
+                "name": "save_score"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "Đã lưu đánh giá của bạn. Cảm ơn bạn đã góp ý!",
+        "additional_kwargs": {
+          "name": "save_score",
+          "tool_call_id": "call_6Y13w9KMo5ZD18lUdS8tc3fX"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Cuộc trò chuyện và đánh giá của bạn đã được lưu lại. Nếu bạn cần hỗ trợ hoặc muốn trò chuyện thêm với tôi, đừng ngần ngại liên hệ. Chúc bạn sức khỏe và tìm được giải pháp cho tình trạng trầm cảm của mình. Hãy chăm sóc bản thân và tìm kiếm sự giúp đỡ khi cần.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "score từ 1-10 là mức độ nặng tăng dần hay ntn",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Trong hệ thống đánh giá sức khỏe tâm thần, điểm số từ 1 đến 10 thường được hiểu như sau:\n\n- Điểm số thấp (gần 1): Đại diện cho tình trạng sức khỏe tâm thần kém, cần được chăm sóc và điều trị ngay.\n- Điểm số cao (gần 10): Đại diện cho tình trạng sức khỏe tâm thần tốt, không có vấn đề đáng lo ngại.\n\nDo đó, điểm số càng cao thì mức độ nặng của tình trạng sức khỏe tâm thần càng giảm. Trong trường hợp của bạn, điểm số 4 có thể được hiểu là mức độ trầm cảm nặng đang ảnh hưởng đến tâm trạng và cuộc sống hàng ngày của bạn. Hãy chăm sóc bản thân và tìm kiếm sự hỗ trợ chuyên nghiệp khi cần. Nếu bạn cần thêm thông tin hoặc muốn chia sẻ thêm, đừng ngần ngại nói cho tôi biết.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tôi đánh giá 5 sao ",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_0fMQ7vr0ncYjXvP3BjHIqqhr",
+              "function": {
+                "arguments": "{\"score\":10,\"content\":\"Người dùng đánh giá 5 sao cho cuộc trò chuyện và cảm thấy hài lòng với sự hỗ trợ. Đề xuất tiếp tục chăm sóc bản thân và tìm kiếm sự giúp đỡ khi cần.\",\"total_guess\":1,\"username\":\"Người dùng\"}",
+                "name": "save_score"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "Đã lưu đánh giá của bạn. Cảm ơn bạn đã góp ý!",
+        "additional_kwargs": {
+          "name": "save_score",
+          "tool_call_id": "call_0fMQ7vr0ncYjXvP3BjHIqqhr"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Đánh giá của bạn đã được lưu lại. Rất cảm ơn bạn đã chia sẻ và đánh giá cao cuộc trò chuyện này. Nếu bạn cần thêm hỗ trợ hoặc muốn trò chuyện thêm với tôi, đừng ngần ngại liên hệ. Chúc bạn một ngày tốt lành!",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "Xin chào",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Chào bạn, có điều gì tôi có thể giúp đỡ bạn không? Hãy chia sẻ vấn đề hoặc câu hỏi của bạn.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "Tôi trầm cảm tự kỉ",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi rất tiếc khi nghe về tình trạng trầm cảm tự kỉ của bạn. Đây là một vấn đề nghiêm trọng và cần được xử lý một cách cẩn thận. Trầm cảm tự kỉ có thể ảnh hưởng đến tâm trạng, tinh thần và cuộc sống hàng ngày của bạn. Để giúp bạn, tôi khuyên bạn nên tìm sự hỗ trợ từ chuyên gia tâm lý hoặc bác sĩ chuyên khoa để được tư vấn và điều trị một cách chuyên nghiệp.\n\nNgoài ra, việc chăm sóc bản thân, thực hiện các hoạt động thư giãn như thiền, yoga, hoặc tập thể dục cũng có thể giúp giảm căng thẳng và cải thiện tâm trạng. Hãy không ngần ngại tìm kiếm sự giúp đỡ khi cần.\n\nNếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi về tình trạng của mình, hãy nói cho tôi biết. Bạn không đơn độc trong cuộc chiến với trầm cảm tự kỉ, chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn sức khỏe và tìm được giải pháp cho tình trạng của mình.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "đánh giá mức độ sức khỏe của ôti",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_uvf9nGQ2uTDutg5p8RzCIj5S",
+              "function": {
+                "arguments": "{\"input\":\"Trầm cảm tự kỉ\"}",
+                "name": "dsm5"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "The excerpt does not provide specific information about Trầm cảm tự kỉ.",
+        "additional_kwargs": {
+          "name": "dsm5",
+          "tool_call_id": "call_uvf9nGQ2uTDutg5p8RzCIj5S"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Dựa trên thông tin bạn cung cấp về tình trạng trầm cảm tự kỉ, tôi không thể đưa ra đánh giá chính xác về mức độ sức khỏe tâm thần của bạn theo tiêu chuẩn DSM-5. Tuy nhiên, từ những gì bạn chia sẻ, có vẻ như bạn đang trải qua một tình trạng khá nghiêm trọng và cần sự chăm sóc và hỗ trợ.\n\nTôi khuyên bạn nên tìm sự giúp đỡ từ chuyên gia tâm lý hoặc bác sĩ chuyên khoa để được đánh giá và điều trị một cách chuyên nghiệp. Hãy chăm sóc bản thân và không ngần ngại tìm kiếm sự hỗ trợ khi cần. Nếu bạn cần thêm thông tin hoặc muốn chia sẻ thêm vấn đề nào, hãy nói cho tôi biết. Chúng ta luôn ở đây để hỗ trợ bạn.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "lưu lại tình trạng này",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_R45JaA04Jla6zKBh0eAQmO5r",
+              "function": {
+                "arguments": "{\"score\":2,\"content\":\"Người dùng đang trải qua tình trạng trầm cảm tự kỉ và cần tìm sự hỗ trợ chuyên nghiệp. Đề xuất tìm kiếm sự giúp đỡ từ chuyên gia tâm lý hoặc bác sĩ chuyên khoa để được đánh giá và điều trị một cách chuyên nghiệp.\",\"total_guess\":1,\"username\":\"Người dùng\"}",
+                "name": "save_score"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "Đã lưu kết quả chẩn đoán của bạn",
+        "additional_kwargs": {
+          "name": "save_score",
+          "tool_call_id": "call_R45JaA04Jla6zKBh0eAQmO5r"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin về tình trạng trầm cảm tự kỉ của bạn đã được lưu lại. Nếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi, đừng ngần ngại liên hệ. Chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn sức khỏe và tìm được giải pháp cho tình trạng của mình.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tôi buồn bực cực kì vì nghiện thủ dâm",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Việc cảm thấy buồn bực và lo lắng về việc nghiện thủ dâm là một vấn đề nhạy cảm và cần được xử lý một cách cẩn thận. Nghiện thủ dâm có thể ảnh hưởng đến tâm lý, sức khỏe tâm thần và quan hệ xã hội của bạn. Để giúp bạn, tôi khuyên bạn nên tìm sự hỗ trợ từ chuyên gia tâm lý hoặc chuyên gia về tâm lý tình dục để được tư vấn và điều trị một cách chuyên nghiệp.\n\nNgoài ra, việc thực hiện các hoạt động thể chất, tập trung vào sở thích và hoạt động khác có thể giúp giảm căng thẳng và tăng cường tinh thần tích cực. Hãy chăm sóc bản thân và không ngần ngại tìm kiếm sự giúp đỡ khi cần.\n\nNếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi về tình trạng của mình, hãy nói cho tôi biết. Chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn sức khỏe và tìm được giải pháp cho tình trạng của mình.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "lưu lại ",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_Upx8TqpKBppqxbBPc1SLYaKe",
+              "function": {
+                "arguments": "{\"score\":3,\"content\":\"Người dùng đang trải qua tình trạng buồn bực và lo lắng về việc nghiện thủ dâm. Đề xuất tìm sự hỗ trợ từ chuyên gia tâm lý hoặc chuyên gia về tâm lý tình dục để được tư vấn và điều trị một cách chuyên nghiệp.\",\"total_guess\":1,\"username\":\"Người dùng\"}",
+                "name": "save_score"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "Đã lưu kết quả chẩn đoán của bạn",
+        "additional_kwargs": {
+          "name": "save_score",
+          "tool_call_id": "call_Upx8TqpKBppqxbBPc1SLYaKe"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin về tình trạng của bạn đã được lưu lại. Nếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi, đừng ngần ngại liên hệ. Chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn sức khỏe và tìm được giải pháp cho tình trạng của mình.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "scores.json",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Xin lỗi vì sự bất tiện này, tôi sẽ kiểm tra và cập nhật lại thông tin về điểm số của bạn.",
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_SyUxpIwWNi4p7RUyYefvW8Vu",
+              "function": {
+                "arguments": "{\"input\":\"scores.json\"}",
+                "name": "dsm5"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "The document does not provide any information about \"scores.json.\"",
+        "additional_kwargs": {
+          "name": "dsm5",
+          "tool_call_id": "call_SyUxpIwWNi4p7RUyYefvW8Vu"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi không thể truy cập được tệp \"scores.json\" để kiểm tra thông tin về điểm số của bạn. Nếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm thông tin, hãy cho tôi biết để tôi có thể hỗ trợ bạn tốt hơn. Cảm ơn bạn!",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "Xin chào, tôi cảm thấy mình không ổn",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Chào bạn, tôi rất tiếc khi nghe bạn chia sẻ rằng bạn cảm thấy không ổn. Nếu bạn muốn, bạn có thể chia sẻ thêm với tôi về cảm xúc và tình trạng hiện tại của mình. Chúng ta có thể cùng trò chuyện và tìm cách giúp bạn vượt qua những khó khăn.Bạn muốn chia sẻ thêm điều gì không?",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "Tôi luôn cảm thấy mình phản ứng thái quá với những lời mắng mỏ của người khác",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Việc cảm thấy phản ứng thái quá với những lời mắng mỏ của người khác có thể là dấu hiệu của sự nhạy cảm và căng thẳng trong tâm lý. Đôi khi, chúng ta có thể cảm thấy bị tổn thương hoặc không thoải mái khi nghe những lời chỉ trích từ người khác. Để giúp bạn, tôi khuyên bạn nên thực hành kỹ năng tự chăm sóc và xử lý cảm xúc.\n\nBạn có thể thử các phương pháp thư giãn như thiền, yoga, hoặc tập trung vào sở thích cá nhân để giảm căng thẳng và cải thiện tâm trạng. Ngoài ra, việc tìm hiểu về cách quản lý cảm xúc và xây dựng lòng tự trọng cũng có thể giúp bạn tự tin hơn trong việc đối mặt với những tình huống khó khăn.\n\nNếu bạn cảm thấy cần sự hỗ trợ hoặc muốn chia sẻ thêm với tôi về tình trạng của mình, hãy nói cho tôi biết. Chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn sức khỏe và tìm được cách giải quyết vấn đề của mình.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tôi còn cảm thấy cực kì áp lực , 1 áp lực vô hình khi người khác kì vọng vào tôi",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Việc cảm thấy áp lực và căng thẳng do sự kỳ vọng từ người khác có thể ảnh hưởng đến tâm lý và tinh thần của bạn. Đôi khi, áp lực vô hình từ người khác có thể tạo ra cảm giác bị ép buộc và không thoải mái. Để giúp bạn giảm áp lực và cải thiện tâm trạng, tôi đề xuất một số phương pháp sau:\n\n1. Thiền và thực hành mindfulness: Thiền và mindfulness giúp bạn tập trung vào hiện tại, giảm căng thẳng và tạo ra sự bình tĩnh trong tâm hồn.\n2. Thiết lập giới hạn: Hãy biết rõ giới hạn của bản thân và không ngần ngại nói không khi cảm thấy áp lực quá lớn.\n3. Tìm sở thích và hoạt động thư giãn: Dành thời gian cho những hoạt động mà bạn thích và giúp bạn thư giãn như đọc sách, nghe nhạc, hoặc vẽ tranh.\n\nNgoài ra, việc tìm hiểu về cách quản lý áp lực và xây dựng lòng tự tin cũng rất quan trọng. Hãy nhớ rằng bạn không phải đối mặt với mọi áp lực một mình, luôn có người sẵn lòng hỗ trợ bạn.\n\nNếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi về tình trạng của mình, hãy nói cho tôi biết. Chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn sức khỏe và tìm được cách giải quyết vấn đề của mình.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "cảm ơn bạn",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Không có gì, bạn có bất kỳ câu hỏi hoặc cần hỗ trợ gì khác, hãy liên hệ với tôi. Chúc bạn một ngày tốt lành và đừng ngần ngại chăm sóc bản thân nhé! Hẹn gặp lại!",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "lưu score trạng thái",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_Pvioo8Hsc7bXPsBrkSJaeufI",
+              "function": {
+                "arguments": "{\"score\":4,\"content\":\"Người dùng đang trải qua áp lực và căng thẳng do sự kỳ vọng từ người khác. Đề xuất thực hành mindfulness, thiết lập giới hạn, tìm sở thích và hoạt động thư giãn để giảm áp lực và cải thiện tâm trạng.\",\"total_guess\":1,\"username\":\"Người dùng\"}",
+                "name": "save_score"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "Đã lưu kết quả chẩn đoán của bạn",
+        "additional_kwargs": {
+          "name": "save_score",
+          "tool_call_id": "call_Pvioo8Hsc7bXPsBrkSJaeufI"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin về trạng thái của bạn đã được lưu lại. Nếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi, đừng ngần ngại liên hệ. Chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn một ngày tốt lành!",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "bạn không hỏi tôi sâu hơn được à",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Xin lỗi vì sự thiếu sót này. Nếu bạn muốn chia sẻ thêm về tình trạng của mình hoặc có bất kỳ điều gì muốn tâm sự, hãy nói cho tôi biết. Tôi luôn sẵn lòng lắng nghe và hỗ trợ bạn trong mọi vấn đề bạn đang gặp phải. Hãy tự tin chia sẻ, tôi sẽ cố gắng hỗ trợ bạn tốt nhất có thể.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tôi cảm thấy chỉ muốn được giải thoát khỏi thế giới",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi rất tiếc khi nghe bạn chia sẻ cảm xúc đau buồn và muốn thoát khỏi thế giới. Đây là một tình trạng nghiêm trọng và cần được xử lý một cách cẩn thận. Bạn không đơn độc trong cuộc chiến này, và tôi muốn bạn biết rằng có người sẵn lòng lắng nghe và hỗ trợ bạn.\n\nNếu bạn cảm thấy suy sụp và không biết phải làm gì, tôi khuyên bạn nên tìm sự giúp đỡ từ chuyên gia tâm lý hoặc tổ chức hỗ trợ tâm lý. Hãy nói chuyện với ai đó bạn tin tưởng và không ngần ngại chia sẻ cảm xúc của mình.\n\nNếu bạn cảm thấy nguy cơ tự tử hoặc cần sự hỗ trợ ngay lập tức, hãy liên hệ với tổ chức cứu hộ hoặc tổng đài khẩn cấp để được giúp đỡ ngay lập tức. Sức khỏe tâm thần của bạn rất quan trọng và chúng ta cần lo lắng và chăm sóc cho nó.\n\nNếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi, hãy nói cho tôi biết. Chúng ta luôn ở đây để hỗ trợ bạn. Hãy giữ vững tinh thần và tìm kiếm sự giúp đỡ khi cần. Chúng ta cùng vượt qua khó khăn này.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "bạn có đề xuất gì không ",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Để giúp bạn vượt qua cảm xúc đau buồn và suy sụp, tôi đề xuất một số biện pháp sau đây:\n\n1. Tìm sự hỗ trợ chuyên nghiệp: Hãy tìm kiếm sự giúp đỡ từ chuyên gia tâm lý hoặc tổ chức hỗ trợ tâm lý. Họ có kinh nghiệm và kiến thức để hỗ trợ bạn vượt qua tình trạng khó khăn.\n\n2. Thực hành self-care: Dành thời gian cho bản thân bằng cách thực hiện các hoạt động thư giãn như thiền, yoga, hoặc tập thể dục. Đảm bảo bạn ăn uống đủ dinh dưỡng và đủ giấc ngủ.\n\n3. Tìm sự hỗ trợ từ người thân: Chia sẻ cảm xúc của bạn với người thân hoặc bạn bè tin cậy. Họ có thể là nguồn động viên và sự ủng hộ quan trọng trong thời điểm khó khăn này.\n\n4. Tìm hoạt động tích cực: Tham gia vào các hoạt động mà bạn thích và mang lại niềm vui cho bạn. Đi dạo ngoài trời, nghe nhạc yêu thích, hoặc đọc sách.\n\n5. Hãy nhớ rằng bạn không đơn độc: Luôn có người sẵn lòng lắng nghe và hỗ trợ bạn. Đừng ngần ngại tìm kiếm sự giúp đỡ khi cần.\n\nNếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi về tình trạng của mình, hãy nói cho tôi biết. Chúng ta luôn ở đây để hỗ trợ bạn. Hãy giữ vững tinh thần và tin rằng mọi khó khăn đều có thể vượt qua. Chúc bạn sức khỏe và tìm được giải pháp cho tình trạng của mình.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "tôi phát điên mất thôi, cảm giác thật điên loạn",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Tôi rất tiếc khi nghe bạn chia sẻ về cảm giác phát điên và điên loạn. Đây là một tình trạng nghiêm trọng và cần được xử lý một cách cẩn thận. Nếu bạn cảm thấy mất kiểm soát và không biết phải làm gì, hãy ngay lập tức tìm sự giúp đỡ từ chuyên gia tâm lý hoặc tổ chức cứu hộ tâm thần.\n\nNếu bạn đang ở trong tình huống khẩn cấp hoặc cảm thấy nguy cơ tự tử, hãy liên hệ ngay với tổ chức cứu hộ hoặc tổng đài khẩn cấp để được giúp đỡ ngay lập tức. Sức khỏe tâm thần của bạn rất quan trọng và chúng ta cần lo lắng và chăm sóc cho nó.\n\nNếu bạn cần hỗ trợ hoặc muốn chia sẻ thêm với tôi về tình trạng của mình, hãy nói cho tôi biết. Chúng ta luôn ở đây để hỗ trợ bạn và chia sẻ gánh nặng cùng bạn. Hãy tin rằng có cách giải quyết cho mọi vấn đề và không bao giờ đơn độc trong cuộc chiến này. Chúng ta cùng vượt qua khó khăn này.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "lưu lại ",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": null,
+        "additional_kwargs": {
+          "tool_calls": [
+            {
+              "id": "call_quC0oGQj34aIWUH3gekjj1Y7",
+              "function": {
+                "arguments": "{\"score\":2,\"content\":\"Người dùng đang trải qua cảm giác phát điên và điên loạn. Đề xuất tìm sự giúp đỡ từ chuyên gia tâm lý hoặc tổ chức cứu hộ tâm thần ngay lập tức.\",\"total_guess\":1,\"username\":\"Người dùng\"}",
+                "name": "save_score"
+              },
+              "type": "function"
+            }
+          ]
+        }
+      },
+      {
+        "role": "tool",
+        "content": "Đã lưu kết quả chẩn đoán của bạn",
+        "additional_kwargs": {
+          "name": "save_score",
+          "tool_call_id": "call_quC0oGQj34aIWUH3gekjj1Y7"
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thông tin về trạng thái của bạn đã được lưu lại. Hãy nhớ rằng luôn có người sẵn lòng hỗ trợ bạn trong mọi tình huống. Nếu cần hỗ trợ hoặc muốn chia sẻ thêm, hãy liên hệ với chuyên gia tâm lý hoặc tổ chức cứu hộ tâm thần ngay lập tức. Chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn sức khỏe và tìm được giải pháp cho tình trạng của mình.",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "score_json báo cuộc trò chuyên jvuwaf rồi 2 điểm",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Đã hiểu, cảm ơn bạn đã cung cấp thông tin. Nếu bạn cần thêm hỗ trợ hoặc muốn chia sẻ bất kỳ điều gì, hãy nói cho tôi biết. Chúng ta luôn ở đây để hỗ trợ bạn. Hãy giữ vững tinh thần và chăm sóc bản thân nhé!",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "user",
+        "content": "2 là tốt hay k",
+        "additional_kwargs": {}
+      },
+      {
+        "role": "assistant",
+        "content": "Điểm số 2 trong đánh giá sức khỏe tâm thần thường được xem là mức độ kém, đòi hỏi sự quan tâm và can thiệp kịp thời. Nếu bạn đang gặp khó khăn và cảm thấy không ổn, hãy tìm kiếm sự hỗ trợ từ chuyên gia tâm lý hoặc tổ chức chăm sóc sức khỏe tâm thần để được đánh giá và điều trị phù hợp. Hãy chăm sóc bản thân và không ngần ngại tìm kiếm sự giúp đỡ khi cần. Chúng ta luôn ở đây để hỗ trợ bạn. Chúc bạn sức khỏe và tìm được giải pháp cho tình trạng của mình.",
+        "additional_kwargs": {}
+      }
+    ]
+  },
+  "class_name": "SimpleChatStore"
+}
